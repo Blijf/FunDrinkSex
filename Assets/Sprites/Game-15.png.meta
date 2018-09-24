@@ -1,15 +1,13 @@
 fileFormatVersion: 2
-guid: b371f94fbb3164545893eaa3a908ae3c
+guid: bdd49bac772cc2448ab63070ac30099a
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 05_Formas_0
-    21300002: 05_Formas_1
-    21300004: 05_Formas_2
-    21300006: 05_Formas_3
-    21300008: 05_Formas_4
-    21300010: 05_Formas_5
-    21300012: 05_Formas_6
-    21300014: 05_Formas_7
+    21300000: Game-15_0
+    21300002: Game-15_1
+    21300004: Game-15_2
+    21300006: Game-15_3
+    21300008: Game-15_4
+    21300010: Game-15_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -68,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -79,7 +77,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -90,7 +88,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Android
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -103,13 +101,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 05_Formas_0
+      name: Game-15_0
       rect:
         serializedVersion: 2
-        x: 102
-        y: 301
-        width: 275
-        height: 18
+        x: 920
+        y: 2461
+        width: 160
+        height: 159
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,19 +115,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42ed4dbdda89749468c681e301479f59
+      spriteID: 402ba0ff83eddcb498a70ff59c1c4210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 05_Formas_1
+      name: Game-15_1
       rect:
         serializedVersion: 2
-        x: 148
-        y: 130
-        width: 191
-        height: 145
+        x: 539
+        y: 1935
+        width: 762
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,19 +135,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d49190d55862714e9fbc58ae7474455
+      spriteID: e18cd16701ba58e47b3cd3077f938099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 05_Formas_2
+      name: Game-15_2
       rect:
         serializedVersion: 2
-        x: 189
-        y: 371
-        width: 103
-        height: 64
+        x: 1335
+        y: 1953
+        width: 120
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,19 +155,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db967d7253365514ab5964472193ee2a
+      spriteID: 687e6f1f2eb5c9c47b8c0cd9f671fbc4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 05_Formas_3
+      name: Game-15_3
       rect:
         serializedVersion: 2
-        x: 332
-        y: 347
-        width: 54
-        height: 96
+        x: 538
+        y: 1719
+        width: 935
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,19 +175,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06f6eda05e055df40bcbc5c1c973a6e4
+      spriteID: b5edb72a84012944b830c8709fa78f27
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 05_Formas_4
+      name: Game-15_4
       rect:
         serializedVersion: 2
-        x: 90
-        y: 366
-        width: 82
-        height: 83
+        x: 364
+        y: 411
+        width: 1272
+        height: 741
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,19 +195,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c50eef347aeef4942b0fcbb70fa5c2b6
+      spriteID: d126a6067eb58fd4a9734b68ce66d383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 05_Formas_5
+      name: Game-15_5
       rect:
         serializedVersion: 2
-        x: 83
-        y: 485
-        width: 73
-        height: 96
+        x: 1200
+        y: 120
+        width: 75
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,47 +215,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb389194d963f8c488be304737e90b7c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 05_Formas_6
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 469
-        width: 125
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a81faafdfcdaf07479d6f957f25c749f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 05_Formas_7
-      rect:
-        serializedVersion: 2
-        x: 310
-        y: 502
-        width: 79
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 479e89b9af608ef48b0dfbdfb8912aa6
+      spriteID: 16090d8746dd613468933ab3c658a41f
       vertices: []
       indices: 
       edges: []
@@ -265,7 +223,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 6840ddf43a36fb847a363966f87dc939
+    spriteID: 01835df71f7f2324cb607830f23e6b11
     vertices: []
     indices: 
     edges: []

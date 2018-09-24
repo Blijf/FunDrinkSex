@@ -1,15 +1,18 @@
 fileFormatVersion: 2
-guid: b371f94fbb3164545893eaa3a908ae3c
+guid: a5a1c478077305047956b878c1917aaf
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 05_Formas_0
-    21300002: 05_Formas_1
-    21300004: 05_Formas_2
-    21300006: 05_Formas_3
-    21300008: 05_Formas_4
-    21300010: 05_Formas_5
-    21300012: 05_Formas_6
-    21300014: 05_Formas_7
+    21300000: Game-13_0
+    21300002: Game-13_1
+    21300004: Game-13_2
+    21300006: Game-13_3
+    21300008: Game-13_4
+    21300010: Game-13_5
+    21300012: Game-13_6
+    21300014: Game-13_7
+    21300016: Game-13_8
+    21300018: Game-13_9
+    21300020: Game-13_10
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -103,153 +106,213 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 05_Formas_0
+      name: Game-13_0
       rect:
         serializedVersion: 2
-        x: 102
-        y: 301
-        width: 275
-        height: 18
+        x: 568
+        y: 1334
+        width: 893
+        height: 1007
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42ed4dbdda89749468c681e301479f59
+      spriteID: f7fead13659a47340abfaaaa8326dff9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 05_Formas_1
+      name: Game-13_1
       rect:
         serializedVersion: 2
-        x: 148
-        y: 130
-        width: 191
-        height: 145
+        x: 492
+        y: 1058
+        width: 178
+        height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d49190d55862714e9fbc58ae7474455
+      spriteID: be90f571abfb89b4cb463c8e77da41bc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 05_Formas_2
+      name: Game-13_2
       rect:
         serializedVersion: 2
-        x: 189
-        y: 371
-        width: 103
-        height: 64
+        x: 710
+        y: 1060
+        width: 167
+        height: 168
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db967d7253365514ab5964472193ee2a
+      spriteID: e9bb7c3db830d3848860fc3bb918ed75
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 05_Formas_3
+      name: Game-13_3
       rect:
         serializedVersion: 2
-        x: 332
-        y: 347
-        width: 54
-        height: 96
+        x: 917
+        y: 1061
+        width: 166
+        height: 167
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06f6eda05e055df40bcbc5c1c973a6e4
+      spriteID: ff66fedc283b32c4fa153b3dffd128a7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 05_Formas_4
+      name: Game-13_4
       rect:
         serializedVersion: 2
-        x: 90
-        y: 366
-        width: 82
-        height: 83
+        x: 1121
+        y: 1062
+        width: 169
+        height: 166
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c50eef347aeef4942b0fcbb70fa5c2b6
+      spriteID: 128a675713d5aad4f94da3630e0a6ed8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 05_Formas_5
+      name: Game-13_5
       rect:
         serializedVersion: 2
-        x: 83
-        y: 485
-        width: 73
-        height: 96
+        x: 1331
+        y: 1059
+        width: 169
+        height: 169
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb389194d963f8c488be304737e90b7c
+      spriteID: 59736678213578d46a1b2e26203ae374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 05_Formas_6
+      name: Game-13_6
       rect:
         serializedVersion: 2
-        x: 176
-        y: 469
-        width: 125
-        height: 128
+        x: 638
+        y: 607
+        width: 724
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a81faafdfcdaf07479d6f957f25c749f
+      spriteID: 0fa645f88b0c5684aa98cb0ee40abc6e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 05_Formas_7
+      name: Game-13_7
       rect:
         serializedVersion: 2
-        x: 310
-        y: 502
-        width: 79
-        height: 53
+        x: 424
+        y: 76
+        width: 199
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02f18c666d53c94abae3d14da7736f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-13_8
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 85
+        width: 210
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0d9298fef9c5e469dfd66029ccaa21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-13_9
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 2451
+        width: 186
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c87a2a2840deb40a6450a7157588ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game-13_10
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1058
+        width: 1026
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,7 +320,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 479e89b9af608ef48b0dfbdfb8912aa6
+      spriteID: c2dd0b99b27e154448f819ad7e882915
       vertices: []
       indices: 
       edges: []
@@ -265,7 +328,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 6840ddf43a36fb847a363966f87dc939
+    spriteID: f71ae1f17116032439a990f30ead61e8
     vertices: []
     indices: 
     edges: []
