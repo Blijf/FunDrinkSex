@@ -8,6 +8,8 @@ public class ScreenManager : MonoBehaviour {
 
     //Screen to open automatically at the start of the Scene
     public Animator initiallyOpen;
+    
+    public Animator ruleta;
 
     //Currently Open Screen
     private Animator m_Open;
@@ -22,6 +24,7 @@ public class ScreenManager : MonoBehaviour {
     //Animator State and Transition names we need to check against.
     const string k_OpenTransitionName = "Open";
     const string k_ClosedStateName = "Closed";
+    const string k_TouchRuleta = "isStopped";
 
     public void OnEnable()
     {
@@ -38,9 +41,9 @@ public class ScreenManager : MonoBehaviour {
     //It also takes care of handling the navigation, setting the new Selected element.
     public void OpenPanel (Animator anim)
     {
+        
         if (m_Open == anim)
             return;
-
         //Activate the new Screen hierarchy so we can animate it.
         anim.gameObject.SetActive(true);
         //Save the currently selected button that was used to open this Screen. (CloseCurrent will modify it)
@@ -132,5 +135,10 @@ public class ScreenManager : MonoBehaviour {
         //But if the user switches to the keyboard, we want to start the navigation from the provided game object.
         //So here we set the current Selected to null, so the provided gameObject becomes the Last Selected in the EventSystem.
         EventSystem.current.SetSelectedGameObject(null);
+    }
+
+    public void touchRuleta(Animator anim)
+    {   
+        anim.SetBool(k_TouchRuleta,true);
     }
 }
