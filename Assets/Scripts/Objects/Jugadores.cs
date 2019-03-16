@@ -46,4 +46,9 @@ public class Jugadores : MonoBehaviour
 	{
 		return players.Count!=0?false:true;
 	}
+
+	public bool minPlayersToPLay(int cant)
+	{
+		return players.Count>=cant?true:false;
+	}
 }

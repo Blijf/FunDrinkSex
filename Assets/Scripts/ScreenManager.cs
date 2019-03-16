@@ -23,6 +23,8 @@ public class ScreenManager : MonoBehaviour {
     const string k_OpenTransitionName = "Open";
     const string k_ClosedStateName = "Closed";
     const string k_TouchRuleta = "isStopped";
+    const string k_switchRuleta = "switch";
+
 
     public void OnEnable()
     {
@@ -135,8 +137,17 @@ public class ScreenManager : MonoBehaviour {
         EventSystem.current.SetSelectedGameObject(null);
     }
 
+    //-------------------------------------------------------------------
+    // MANEJO DE ELEMENTOS DE LA ESCENA
+    //-------------------------------------------------------------------
     public void touchRuleta(Animator anim)
     {   
-        anim.SetBool(k_TouchRuleta,true);
+        //Generamos un número rando de 0->4
+        float rand = Random.Range(0,4);
+        Debug.Log(rand);
+
+        anim.SetFloat(k_switchRuleta,rand);
+
+        anim.SetTrigger(k_TouchRuleta);
     }
 }

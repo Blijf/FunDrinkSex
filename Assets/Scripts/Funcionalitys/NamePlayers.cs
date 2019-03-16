@@ -10,34 +10,36 @@ public class NamePlayers : MonoBehaviour {
 	public Text players2;
 	public Text players3;
 	public Text aviso;
-
-	private InputField inputField;
-	private Jugadores jugadores;
+	public int minPlayers;
 	public Button buttonStart;
+	public InputField inputField;
+
+	private ScreenManager screenManager;
+	public static Jugadores jugadores;
+
 	// Use this for initialization
 	void Start () 
 	{
+		screenManager= new ScreenManager();
 		jugadores= new Jugadores(size);	
-		inputField= GetComponent<InputField>();
+		
 		//Dejamos todos el contenido de los textos a cero 
 		aviso.text=""; players1.text="";players2.text="";players3.text="";
-		buttonStart.enabled=false;
 	}
 
 	void Update()
 	{
-		//Si no ha agregado algun usuario no pasa a la siguiente pantalla
-		if(!jugadores.isEmpty())
-		{
-			buttonStart.enabled=true;
-		}
+	
 
 	}
 
+	//-------------------------------------------------------------------
+    // METHODS
+    //-------------------------------------------------------------------
 	public void addPlayer()
 	{
 		//mantenemos la pantalla abierta
-	
+		
 		TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default);
 
 		aviso.text="";
@@ -47,10 +49,11 @@ public class NamePlayers : MonoBehaviour {
 
 		//Comprobamos si el nombre esta vacio
 		if(player.name=="")
-		aviso.text="Nombre vacio";
-
+		{
+			aviso.text="Nombre vacio";
+		}
 		//comprobamos si el nombre es repetido
-		if(!jugadores.nameExists(player)&&player.name!="")
+		else if(!jugadores.nameExists(player) && player.name!="")
 		{
 			jugadores.addListPlayer(player);
 
@@ -77,7 +80,7 @@ public class NamePlayers : MonoBehaviour {
 			}
 			
 		}
-		else
+		else if(jugadores.nameExists(player) && player.name!="")
 		{
 			aviso.text="Nombre repetido";
 		}
@@ -86,4 +89,16 @@ public class NamePlayers : MonoBehaviour {
 
 	}
 
+	public void startRuleta(Animator anim)
+	{
+		//Si no ha agregado algun usuario no pasa a la siguiente pantalla
+		if(jugadores.minPlayersToPLay(minPlayers))
+		{
+			screenManager.OpenPanel(anim);
+		}
+		else
+		{
+			aviso.text= "El mímino de jugadores es: "+minPlayers;
+		}
+	}
 }
