@@ -41,4 +41,9 @@ public class Jugadores : MonoBehaviour
 
 		return exists;
 	}
+
+	public bool isEmpty()
+	{
+		return players.Count!=0?false:true;
+	}
 }

@@ -95,7 +95,7 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 65
+    textureFormat: 55
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -108,7 +108,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ed66249e31aaca54bbfc6e0e8ef57831
+    spriteID: 46ca2dd61ac64a44cbf247423f69c0ae
     vertices: []
     indices: 
     edges: []
